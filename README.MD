@@ -13,9 +13,7 @@ Proyek ini merupakan **end-to-end data analytics pipeline** yang mencakup proses
 
 ```
 Last.fm API → Python (ETL) → Google BigQuery → Looker Studio / Power BI
-                  ↑
-              Prefect
-           (Orchestration)
+     
 ```
 
 ### Data Flow
@@ -52,5 +50,6 @@ Dashboard menyajikan 4 metrik utama:
 - Google Cloud Project dengan BigQuery API enabled
 - Last.fm API Key
 - Google Cloud Service Account dengan BigQuery permissions
+
 
 
