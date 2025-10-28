@@ -3,7 +3,7 @@
 Proyek ini merupakan **end-to-end data analytics pipeline** yang mencakup proses pengambilan, transformasi, dan visualisasi data musik dari Last.fm API. Pipeline ini mengambil data top artists, tracks, dan tags secara global maupun khusus Indonesia, kemudian menyajikannya dalam dashboard interaktif untuk mendapatkan insights tentang tren musik terkini.
 
 ### Key Features
-- ✅ *Data Extraction** dari Last.fm API dengan Prefect orchestration
+- ✅ **Data Extraction** dari Last.fm API dengan Prefect orchestration
 - ✅ **Data Transformation** dengan Pandas untuk cleaning dan standardisasi
 - ✅ **Cloud Data Warehouse** menggunakan Google BigQuery
 - ✅ **Dual Dashboard** di Looker Studio dan Power BI
@@ -50,6 +50,7 @@ Dashboard menyajikan 4 metrik utama:
 - Google Cloud Project dengan BigQuery API enabled
 - Last.fm API Key
 - Google Cloud Service Account dengan BigQuery permissions
+
 
 
 
